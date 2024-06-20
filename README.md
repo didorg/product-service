@@ -11,7 +11,7 @@ This project is centered around a Java-based application that primarily utilizes
 
 ### Prerequisites
 
-- Java 11 or higher
+- Java 17 or higher
 - Maven or Gradle for dependency management
 - A running instance of the database (e.g., MySQL, PostgreSQL)
 

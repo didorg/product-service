@@ -10,3 +10,9 @@ type Query {
   getProducts: [Product]
   getProductsByCategory(category: String): [Product]
 }
+
+type Mutation {
+  updateStock(id:ID, stock:Int): Product
+  addStock(id:ID, quantity:Int): Product
+}
+

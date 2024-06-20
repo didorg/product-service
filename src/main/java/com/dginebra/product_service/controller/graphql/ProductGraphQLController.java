@@ -1,4 +1,4 @@
-package com.dginebra.product_service.controller;
+package com.dginebra.product_service.controller.graphql;
 
 import java.util.List;
 

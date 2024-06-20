@@ -3,7 +3,6 @@ package com.dginebra.product_service;
 import com.dginebra.product_service.entity.Product;
 import com.dginebra.product_service.repository.ProductRepository;
 import jakarta.annotation.PostConstruct;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -13,10 +12,11 @@ import java.util.stream.Stream;
 
 @SpringBootApplication
 public class ProductServiceApplication {
-
-
-//	@Autowired
-//	private ProductRepository repository;
+//	private final ProductRepository repository;
+//
+//	public ProductServiceApplication(ProductRepository repository) {
+//		this.repository = repository;
+//	}
 //
 //	@PostConstruct
 //	public void initDB(){

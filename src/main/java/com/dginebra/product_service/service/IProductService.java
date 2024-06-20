@@ -6,5 +6,7 @@ import java.util.List;
 
 public interface IProductService {
     List<Product> getProducts(Integer pageNo, Integer pageSize, String sortBy);
+    List<Product> getProducts();
     List<Product> getProductsByCategory(String category);
+
 }

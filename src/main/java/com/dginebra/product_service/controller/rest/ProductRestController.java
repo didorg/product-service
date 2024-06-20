@@ -1,4 +1,4 @@
-package com.dginebra.product_service.controller;
+package com.dginebra.product_service.controller.rest;
 
 import com.dginebra.product_service.entity.Product;
 import com.dginebra.product_service.exception.ApiException;

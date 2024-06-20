@@ -26,6 +26,10 @@ public class ProductService implements IProductService {
         return pageResult.hasContent() ? pageResult.getContent() : new ArrayList<>();
     }
 
+    public List<Product> getProducts(){
+        return repository.findAll();
+    }
+
     public List<Product> getProductsByCategory(String category) {
         return repository.findByCategory(category);
     }

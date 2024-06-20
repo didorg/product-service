@@ -48,8 +48,9 @@ or
 gradle bootRun
 ```
 2. **Access the APIs:**
- - GraphQL: Visit [graphql](http://localhost:8181/graphql)
- - REST: Visit [rest](http://localhost:8181/products)
+ - GraphQL - Postmant: [graphql](http://localhost:8181/graphql)
+ - GraphQL - Browser: [graphiql](http://localhost:8181/graphiql?path=/graphql)
+ - REST: [rest](http://localhost:8181/products)
 
 
 
